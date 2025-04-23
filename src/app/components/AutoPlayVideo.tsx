@@ -43,7 +43,7 @@ function AutoPlayVideo() {
 
   return (
     <video
-      className="h-[80vh]"
+      className="w-full py-36 md:pt-0 md:w-auto md:h-[80vh]"
       playsInline
       muted
       preload="auto"

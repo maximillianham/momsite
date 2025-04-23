@@ -101,7 +101,7 @@ export default function Home() {
       </div>
 
       <div
-        className={`flex flex-col text-3xl pt-64 pb-32 sm:px-6 md:px-24 lg:px-40 xl:px-60 z-10 justify-center text-center tracking-widest font-regular ${karma.className}`}
+        className={`flex flex-col text-3xl px-6 md:px-0 pt-16 md:pt-64 md:pb-32 md:w-[800px] mx-auto z-10 justify-center text-center tracking-widest font-regular ${karma.className}`}
       >
         &quot;For the record, I always want the long version when I ask how
         you&apos;re doing.&quot;
@@ -111,7 +111,7 @@ export default function Home() {
         <AutoPlayVideo />
       </div>
 
-      <div className="relative pt-24 text-center">
+      <div className="relative pt-24 text-center px-6 md:px-0">
         {/* Background Image */}
         <Image
           className="absolute top-0 left-1/2 transform -translate-x-1/2 z-0"
@@ -124,19 +124,15 @@ export default function Home() {
         <h3 className="relative text-4xl shadow-md z-10">
           What We&apos;ll Do...
         </h3>
-        <div className="text-2xl relative z-10">
-          <p className="pt-16">Inner Child Work</p>
-          <p className="pt-8">
-            Our parts through Internal Family Systems (IFS)
-          </p>
-          <p className="pt-8">Rewiring the Nervous System</p>
-          <p className="pt-8">Attachment Theory</p>
-          <p className="pt-8">Emotional Freedom Technique (EFT)</p>
-          <p className="pt-8">
-            The body&apos;s story through Somatic Experiencing.
-          </p>
-          <p className="pt-8">The Enneagram</p>
-          <p className="pt-8">SoulFlow&trade;</p>
+        <div className="text-2xl relative z-10 flex flex-col gap-y-5 md:gap-y-8 pt-16">
+          <p>Inner Child Work</p>
+          <p>Our parts through Internal Family Systems (IFS)</p>
+          <p>Rewiring the Nervous System</p>
+          <p>Attachment Theory</p>
+          <p>Emotional Freedom Technique (EFT)</p>
+          <p>The body&apos;s story through Somatic Experiencing.</p>
+          <p>The Enneagram</p>
+          <p>SoulFlow&trade;</p>
         </div>
       </div>
 
@@ -179,15 +175,15 @@ export default function Home() {
 
       <p className="text-center pt-50 text-3xl">Testimonials</p>
 
-      <div className="flex flex-col md:flex-row text-center text-s pt-16 pb-16 shadow-md">
-        <p className="px-16 pt-8 md:pt-0 md:w-1/3">
+      <div className="flex flex-col lg:flex-row text-justify lg:text-center lg:gap-x-36 pt-16 pb-16 shadow-md px-12 lg:px-16 gap-y-8">
+        <p className=" lg:w-1/3">
           Carrie goes above and beyond, I believe she will excel in any role
           that a client is facing. Carrie has displayed a strong work ethic,
           high standards and a genuine care for the well being of clients. She
           posseses above average emotional intelligence and excellent
           communication skills. - Dr. Morgan Anderson Psy.D
         </p>
-        <p className="px-16 pt-8 md:pt-0 md:w-1/3">
+        <p className=" lg:w-1/3">
           &quot;Whatever you are trying to move through, you definitely want
           Carrie in your corner. She will make you feel seen, heard and loved;
           while not backing down on what you need to hear in order to move the
@@ -198,7 +194,7 @@ export default function Home() {
           get to work with her. It has been breakthrough after breakthrough and
           my life is shifting in unbelievable ways because of her. - S, 55
         </p>
-        <p className="px-16 pt-8 md:pt-0 md:w-1/3">
+        <p className=" lg:w-1/3">
           Working with Carrie has been truly transformative. From our very first
           session, her guidance and unwavering support has helped me gain
           clarity and confidence in my personal and professional life. Her
@@ -210,7 +206,7 @@ export default function Home() {
           with the way I act, feel, and view life; Thanks to Carrie! - M, 21
         </p>
       </div>
-      <p className="pt-36 pb-56 px-8 md:px-36 text-center tracking-widest text-3xl">
+      <p className="pt-36 pb-56 px-6 md:px-36 text-center tracking-widest text-3xl">
         &quot;At any given moment you have the power to say: this is not how the
         story is going to end.&quot;
       </p>
@@ -230,8 +226,8 @@ export default function Home() {
           width={1080}
         />
       </div>
-      <footer className="bg-neutral-900">
-        <div className="mx-auto pt-12 text-center text-xl text-neutral-600">
+      <footer className="bg-neutral-900 py-20">
+        <div className="mx-auto  text-center text-xl text-neutral-600">
           HOW TO CONTACT ME
         </div>
         <div className="mx-auto pt-6 text-center text-lg text-neutral-600">
@@ -245,21 +241,33 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 text-center text-lg text-white shadow-inner pt-12">
-          <p className="-mx-auto px-24">Text Me</p>
+        <div className="flex flex-col justify-center items-center gap-y-8 lg:gap-y-0 md:flex-row text-center text-lg text-white shadow-inner pt-12 ">
+          <div className="md:w-1/3">
+            <div>Text Me</div>
+            <a href="tel:+19494339364" className=" hover:underline">
+              (949) 433 - 9364
+            </a>
+          </div>
 
-          <p className="px-24">Send Me An Email</p>
+          <div className="md:w-1/3">
+            <div>Send Me An Email</div>
+            <a href="mailto:ckurtz85@gmail.com" className="hover:underline">
+              ckurtz85@gmail.com
+            </a>
+          </div>
 
-          <p className="px-24">Follow Me</p>
+          <div className="md:w-1/3">
+            <div>Follow Me</div>
+            <a
+              href="https://www.instagram.com/@carrie_kurtz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              @Carrie_kurtz
+            </a>
+          </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 text-center text-lg text-white shadow-inner pb-28">
-          <p className="px-24">(949) 433 - 9364</p>
-
-          <p className="px-24">ckurtz85@gmail.com</p>
-
-          <p className="px-24">@Carrie_kurtz</p>
-        </div>
-        <div className="bg-black pb-14"></div>
       </footer>
     </main>
   );
