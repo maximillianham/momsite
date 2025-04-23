@@ -6,33 +6,7 @@ function AutoPlayVideo() {
   const theVideo = useRef<HTMLVideoElement | null>(null);
 
   useEffect(() => {
-    function handleScroll() {
-      const vid = theVideo.current;
-      if (!vid) {
-        return;
-      }
-
-      //  >winTop      ----------------
-      //  >vidTop      |  |-------|  |
-      //               |  |       |  |
-      //  >vidBottom   |  |-------|  |
-      //  >winBottom   ----------------
-
-      const vidTop = vid.offsetTop;
-      const vidBot = vidTop + vid.clientHeight;
-      const winTop = window.scrollY;
-      const winBot = winTop + window.innerHeight;
-      if (winBot > vidTop) {
-        // fix this
-        // should be 100 when video is fully scrolled out of view.
-        const percentage = (winBot - vidTop) / vid.clientHeight;
-        console.log(percentage);
-        const targetTime = percentage * vid.duration;
-        console.log(targetTime);
-        vid.currentTime = targetTime;
-      }
-    }
-
+    let didPlay = false;
     // We want to play the video when it is 5% visible. So first, we create an
     // IntersectionObserver to monitor the video element.
     const observer = new IntersectionObserver(
@@ -45,12 +19,10 @@ function AutoPlayVideo() {
 
           // If the video is 5% visible, we play it.
           // The 5% visibility is defined by the threshold option (0.05).
-          if (entry.isIntersecting) {
+          if (entry.isIntersecting && !didPlay) {
             // We also add a scroll event listener to handle the scrolling interaction.
-            window.addEventListener("scroll", handleScroll);
-          } else {
-            // We remove the scroll event listener when the video is not visible.
-            window.removeEventListener("scroll", handleScroll);
+            didPlay = true;
+            vid.play();
           }
         });
       },
@@ -59,6 +31,7 @@ function AutoPlayVideo() {
 
     // We observe the video element, assuming it was rendered (not null).
     if (theVideo.current) {
+      theVideo.current.playbackRate = 10;
       observer.observe(theVideo.current);
     }
 
@@ -69,7 +42,14 @@ function AutoPlayVideo() {
   }, []);
 
   return (
-    <video className="h-[80vh]" ref={theVideo} src="/lotus-compressed.mp4" />
+    <video
+      className="h-[80vh]"
+      playsInline
+      muted
+      preload="auto"
+      ref={theVideo}
+      src="/lotus-compressed.mp4"
+    />
   );
 }
 
