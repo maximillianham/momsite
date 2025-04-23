@@ -69,11 +69,7 @@ function AutoPlayVideo() {
   }, []);
 
   return (
-    <video
-      className="h-[80vh]"
-      ref={theVideo}
-      src="/AdobeStock_365452886 - (16x9).mp4"
-    />
+    <video className="h-[80vh]" ref={theVideo} src="/lotus-compressed.mp4" />
   );
 }
 
