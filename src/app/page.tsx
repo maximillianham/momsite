@@ -107,7 +107,9 @@ export default function Home() {
         you&apos;re doing.&quot;
       </div>
 
-      <AutoPlayVideo />
+      <div className="flex justify-center items-center">
+        <AutoPlayVideo />
+      </div>
 
       <div className="relative pt-24 text-center">
         {/* Background Image */}
