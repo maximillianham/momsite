@@ -57,7 +57,7 @@ export default function Home() {
               life thats been calling you home.
             </p>
             <p className="pt-24">
-              Schedule a compliumentary somatic session and begin to learn the
+              Schedule a complimentary somatic session and begin to learn the
               language your body speaks.
             </p>
           </h1>
