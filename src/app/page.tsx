@@ -1,13 +1,13 @@
 import Image from "next/image";
-import Roots from "./components/Straighttotheroot.svg";
-import Certificate from "./components/2_SOSA_governingboard(transparent).png";
+import Roots from "./components/straighttotheroot.svg";
+import Certificate from "./components/governingboard.png";
 import blossommain from "./components/blossommain.jpg";
-import blossomBG from "./components/AdobeStock_90133252.jpeg";
-import mom from "./components/Carrie_Favorite_Website.jpg";
-import petalsbg from "./components/AdobeStock_532705031.png";
-import petalsbg2 from "./components/AdobeStock_789829685.png";
-import Sunnyday from "./components/IMG_2884.jpg";
-import sfembodiment from "./components/SFembodiment.png";
+import blossomBG from "./components/adobestock_90133252.jpeg";
+import mom from "./components/carrie_favorite_website.jpg";
+import petalsbg from "./components/adobestock_532705031.png";
+import petalsbg2 from "./components/adobestock_789829685.png";
+import Sunnyday from "./components/img_2884.jpg";
+import sfembodiment from "./components/sf_embodiment.png";
 import { karma, Rhd } from "@/app/fonts";
 import AutoPlayVideo from "./components/AutoPlayVideo";
 
