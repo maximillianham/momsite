@@ -8,17 +8,13 @@ import petalsbg from "./components/AdobeStock_532705031.png";
 import petalsbg2 from "./components/AdobeStock_789829685.png";
 import Sunnyday from "./components/IMG_2884.jpg";
 import sfembodiment from "./components/SFembodiment.png";
-import wisdom from "./components/Asset 3.svg";
-import tf from "./components/Asset 7.svg";
-import { karma } from "@/app/fonts";
+import { karma, Rhd } from "@/app/fonts";
 import AutoPlayVideo from "./components/AutoPlayVideo";
 
 export default function Home() {
   return (
-    <main
-      className={`flex flex-col text-white bg-black min-h-screen ${karma.className}`}
-    >
-      <section className="relative w-full flex items-center justify-center bg-black overflow-hidden">
+    <main className={`text-white bg-black min-h-screen ${karma.className}`}>
+      <section className="relative w-full items-center justify-center bg-black overflow-hidden">
         {/* Section Background Image */}
         <Image
           className="object-cover z-0"
@@ -28,35 +24,30 @@ export default function Home() {
           priority
         />
 
-        <div className="relative z-10 flex flex-col items-center justify-center text-black text-center px-4 sm:px-6 md:px-24 lg:px-40 xl:px-60 py-24 w-full">
-          {/* Desktop Logomark */}
-          <Image
-            className="absolute mx-auto inset-0 z-10 flex flex-col justify-center items-center py-4"
-            src={Roots}
-            alt="logomark"
-            height={75}
-            width={75}
-          />
-          {/* Mobile (IOS) Logo Typeface */}
-          <Image
-            className="hidden md:block absolute inset-8 z-10 flex-col justify-center"
-            src={tf}
-            alt="logo typeface"
-            height={275}
-            width={275}
-          />
-          {/* Textblock Header */}
-          <Image
-            className="hidden xl:block max-w-3xl pt-56"
-            src={wisdom}
-            alt="header type"
-            height={775}
-            width={775}
-          />
+        {/*LogoMark*/}
+        <Image
+          className="relative mx-auto z-10 justify-center items-center py-4"
+          src={Roots}
+          alt="logomark"
+          height={65}
+          width={65}
+        />
+        {/* Mobile (IOS) Logo Typeface */}
+        <div
+          className={`relative hidden md:block text-black text-center text-2xl font-bold ${Rhd}`}
+        >
+          Straight To The Root
+        </div>
 
+        <div className="relative z-10 items-center justify-center text-black text-center px-4 sm:px-6 md:px-24 lg:px-40 xl:px-60 py-24 w-full">
           {/* Textblock */}
-          <h1 className="text-3xl font-normal pt-4">
-            <p className="font-bold">
+          <h1 className="text-2xl font-normal pt-14">
+            <p
+              className={`z-10 justify-center text-4xl tracking-widest font-bold ${Rhd}`}
+            >
+              There Is Wisdom In Your Roots...
+            </p>
+            <p className="pt-2">
               What you are seeking is already alive within your body.
             </p>
             <p className="pt-4">
@@ -80,15 +71,15 @@ export default function Home() {
         <p className="pt-8 pb-24 text-xl px-4">
           {" "}
           I am a Multi-modality Somatic Embodiment Coach and SoulFlow&trade;
-          Master Practitioner. Through my own journey I've discovered true
+          Master Practitioner. Through my own journey I&apos;ve discovered true
           healing goes beyond shifting thoughts and beliefs. It also requires
-          addressing trauma stored in our body and learning it's unique
+          addressing trauma stored in our body and learning it&apos;s unique
           language. A mind/body approach. I believe the most important
           relationship we have, is the one with ourselves. Our inner world is a
           mirror and our life is the reflection. Having walked my own path of
           transformation, I feel deeply called to empower and support you as you
-          reclaim your wholeness. Let's get to the root together and move into a
-          life that excites you and feels good in your body!
+          reclaim your wholeness. Let&apos;s get to the root together and move
+          into a life that excites you and feels good in your body!
         </p>
       </h3>
       <div className="flex flex-col mx-auto items-center items-justify">
@@ -112,11 +103,12 @@ export default function Home() {
       <div
         className={`flex flex-col text-3xl pt-64 pb-32 sm:px-6 md:px-24 lg:px-40 xl:px-60 z-10 justify-center text-center tracking-widest font-regular ${karma.className}`}
       >
-        "For the record, I always want the long version when I ask how you're
-        doing."
+        &quot;For the record, I always want the long version when I ask how
+        you&apos;re doing.&quot;
       </div>
 
       <AutoPlayVideo />
+
       <div className="relative pt-24 text-center">
         {/* Background Image */}
         <Image
@@ -127,7 +119,9 @@ export default function Home() {
           width={1250}
         />
         {/* Foreground Text */}
-        <h3 className="relative text-4xl shadow-md z-10">What We'll Do...</h3>
+        <h3 className="relative text-4xl shadow-md z-10">
+          What We&apos;ll Do...
+        </h3>
         <div className="text-2xl relative z-10">
           <p className="pt-16">Inner Child Work</p>
           <p className="pt-8">
@@ -136,29 +130,33 @@ export default function Home() {
           <p className="pt-8">Rewiring the Nervous System</p>
           <p className="pt-8">Attachment Theory</p>
           <p className="pt-8">Emotional Freedom Technique (EFT)</p>
-          <p className="pt-8">The body's story through Somatic Experiencing.</p>
+          <p className="pt-8">
+            The body&apos;s story through Somatic Experiencing.
+          </p>
           <p className="pt-8">The Enneagram</p>
           <p className="pt-8">SoulFlow&trade;</p>
         </div>
       </div>
 
       <Image
-        className="w-full pt-8 "
+        className="w-full pt-32 "
         src={sfembodiment}
         alt="sfe"
         height={200}
         width={350}
       />
 
-      <h4 className="text-center text-3xl mx-72 pt-32">
-        ITS BEEN FAR TOO LONG DARLING, TO NOT MOVE FROM INSIDE OF YOUR SOUL.
-        <p className=" text-2xl pt-16 pb-8 mx-16">
+      <h4 className="flex flex-wrap md:flex-col text-center text-3xl pt-32 px-8 md:px-64">
+        <p>
+          ITS BEEN FAR TOO LONG DARLING, TO NOT MOVE FROM INSIDE OF YOUR SOUL.
+        </p>
+        <p className="text-2xl pt-16 pb-8">
           True embodiment is about embracing your wholeness & learning the
           language your body speaks. SoulFlow&trade; is deeeply rooted in the
           belief that the more embodied you become, the greater magnet you are
           to attracting what it is you desire in your life.
         </p>
-        <p className="text-2xl mx-16">
+        <p className="text-2xl">
           Through SoulFlow&trade; you can transcend trauma, release limitations,
           and embody your authentic self with confidence. When we get out of our
           minds and into our bodies, it is here where we begin to cultivate long
@@ -173,32 +171,32 @@ export default function Home() {
         height={250}
         width={400}
       />
-      <p className="mx-auto py-32 text-4xl tracking-widest">
+      <p className="text-center py-32 text-4xl tracking-widest">
         We Heal In Safe Community
       </p>
 
-      <p className="mx-auto pt-50 text-3xl">Testimonials</p>
+      <p className="text-center pt-50 text-3xl">Testimonials</p>
 
-      <div className="grid grid-cols-3 text-center text-s pt-16 pb-16 shadow-md">
-        <p className="px-16">
+      <div className="flex flex-col md:flex-row text-center text-s pt-16 pb-16 shadow-md">
+        <p className="px-16 pt-8 md:pt-0 md:w-1/3">
           Carrie goes above and beyond, I believe she will excel in any role
           that a client is facing. Carrie has displayed a strong work ethic,
           high standards and a genuine care for the well being of clients. She
           posseses above average emotional intelligence and excellent
           communication skills. - Dr. Morgan Anderson Psy.D
         </p>
-        <p className="px-16">
-          "Whatever you are trying to move through, you definitely want Carrie
-          in your corner. She will make you feel seen, heard and loved; while
-          not backing down on what you need to hear in order to move the needle.
-          Carries loving, nurturing approach will really help you feel safe,
-          looking at the uncomfortable stuff so that you can move through
+        <p className="px-16 pt-8 md:pt-0 md:w-1/3">
+          &quot;Whatever you are trying to move through, you definitely want
+          Carrie in your corner. She will make you feel seen, heard and loved;
+          while not backing down on what you need to hear in order to move the
+          needle. Carries loving, nurturing approach will really help you feel
+          safe, looking at the uncomfortable stuff so that you can move through
           anything that is holding you back. There is no staying stuck with
           Carrie. She truly has a gift to help people and I feel so blessed to
           get to work with her. It has been breakthrough after breakthrough and
           my life is shifting in unbelievable ways because of her. - S, 55
         </p>
-        <p className="px-16">
+        <p className="px-16 pt-8 md:pt-0 md:w-1/3">
           Working with Carrie has been truly transformative. From our very first
           session, her guidance and unwavering support has helped me gain
           clarity and confidence in my personal and professional life. Her
@@ -206,13 +204,13 @@ export default function Home() {
           empowered me to set and achieve meaningful goals. What I love most
           about working with Carrie is how she consistently validates my
           feelings and experiences, making me feel truly heard and understood.
-          I'm constantly experiencing positive changes in my life daily, with
-          the way I act, feel, and view life; Thanks to Carrie! - M, 21
+          I&apos;m constantly experiencing positive changes in my life daily,
+          with the way I act, feel, and view life; Thanks to Carrie! - M, 21
         </p>
       </div>
-      <p className="pt-36 pb-56 mx-auto text-center tracking-widest text-3xl px-64">
-        "At any given moment you have the power to say: this is not how the
-        story is going to end."
+      <p className="pt-36 pb-56 px-8 md:px-36 text-center tracking-widest text-3xl">
+        &quot;At any given moment you have the power to say: this is not how the
+        story is going to end.&quot;
       </p>
       <div className="flex flex-col items-center justify-center">
         <Image
@@ -245,14 +243,14 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="grid grid-cols-3 text-center text-lg text-white shadow-inner pt-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 text-center text-lg text-white shadow-inner pt-12">
           <p className="-mx-auto px-24">Text Me</p>
 
           <p className="px-24">Send Me An Email</p>
 
           <p className="px-24">Follow Me</p>
         </div>
-        <div className="grid grid-cols-3 text-center text-lg text-white shadow-inner pb-28">
+        <div className="grid grid-cols-1 md:grid-cols-3 text-center text-lg text-white shadow-inner pb-28">
           <p className="px-24">(949) 433 - 9364</p>
 
           <p className="px-24">ckurtz85@gmail.com</p>
