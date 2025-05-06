@@ -31,7 +31,6 @@ function AutoPlayVideo() {
 
     // We observe the video element, assuming it was rendered (not null).
     if (theVideo.current) {
-      theVideo.current.playbackRate = 10;
       observer.observe(theVideo.current);
     }
 
@@ -48,8 +47,10 @@ function AutoPlayVideo() {
       muted
       preload="auto"
       ref={theVideo}
-      src="/lotus-compressed.mp4"
-    />
+    >
+      <source src="/lotus-fast-compressed-lowres.webm" type="video/webm" />
+      <source src="/lotus-fast-compressed-lowres.mp4" type="video/mp4" />
+    </video>
   );
 }
 
