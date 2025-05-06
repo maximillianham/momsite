@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 const title = "Straight to the Root";
 const description =
   "Through gentle, embodied, practices and a trauma-informed, multi-modality approach, we create a sanctuary for your nervous system so you can reconnect with your inner wisdom and receive the life thats been calling you home.";
-const domain = "https://momsite-one.vercel.app";
+const domain = "https://www.straight2theroot.com";
 const imageUrl = `${domain}/og_image.jpg`;
 
 export const metadata: Metadata = {
