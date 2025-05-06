@@ -7,7 +7,7 @@ import mom from "./components/carrie_favorite_website.jpg";
 import petalsbg from "./components/adobestock_532705031.png";
 import petalsbg2 from "./components/adobestock_789829685.png";
 import Sunnyday from "./components/img_2884.jpg";
-import sfembodiment from "./components/sf_embodiment.png";
+import sfembodiment from "./components/sf_highres.png";
 import { karma, Rhd } from "@/app/fonts";
 import AutoPlayVideo from "./components/AutoPlayVideo";
 
@@ -140,8 +140,8 @@ export default function Home() {
         className="w-full pt-32 "
         src={sfembodiment}
         alt="sfe"
-        height={200}
-        width={350}
+        height={303}
+        width={1500}
       />
 
       <h4 className="flex flex-wrap md:flex-col text-center text-3xl pt-32 px-8 md:px-64">
