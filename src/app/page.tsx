@@ -6,7 +6,7 @@ import blossomBG from "./components/adobestock_90133252.jpeg";
 import mom from "./components/carrie_favorite_website.jpg";
 import petalsbg from "./components/adobestock_532705031.png";
 import petalsbg2 from "./components/adobestock_789829685.png";
-import Sunnyday from "./components/img_2884.jpg";
+import Sunnyday from "./components/IMG_5889.jpeg";
 import sfembodiment from "./components/sf_highres.png";
 import { karma, Rhd } from "@/app/fonts";
 import AutoPlayVideo from "./components/AutoPlayVideo";
@@ -175,26 +175,26 @@ export default function Home() {
 
       <p className="text-center pt-50 text-3xl">Testimonials</p>
 
-      <div className="flex flex-col lg:flex-row text-justify lg:text-center lg:gap-x-36 pt-16 pb-16 shadow-md px-12 lg:px-16 gap-y-8">
-        <p className=" lg:w-1/3">
+      <div className="flex flex-col lg:flex-row text-justify lg:text-center lg:gap-x-16 pt-16 pb-16 shadow-md px-12 lg:px-16 gap-y-8">
+        <p className=" lg:w-1/4">
           Carrie goes above and beyond, I believe she will excel in any role
           that a client is facing. Carrie has displayed a strong work ethic,
           high standards and a genuine care for the well being of clients. She
           posseses above average emotional intelligence and excellent
           communication skills. - Dr. Morgan Anderson Psy.D
         </p>
-        <p className=" lg:w-1/3">
-          &quot;Whatever you are trying to move through, you definitely want
-          Carrie in your corner. She will make you feel seen, heard and loved;
-          while not backing down on what you need to hear in order to move the
-          needle. Carries loving, nurturing approach will really help you feel
-          safe, looking at the uncomfortable stuff so that you can move through
+        <p className=" lg:w-1/4">
+          Whatever you are trying to move through, you definitely want Carrie in
+          your corner. She will make you feel seen, heard and loved; while not
+          backing down on what you need to hear in order to move the needle.
+          Carries loving, nurturing approach will really help you feel safe,
+          looking at the uncomfortable stuff so that you can move through
           anything that is holding you back. There is no staying stuck with
           Carrie. She truly has a gift to help people and I feel so blessed to
           get to work with her. It has been breakthrough after breakthrough and
           my life is shifting in unbelievable ways because of her. - S, 55
         </p>
-        <p className=" lg:w-1/3">
+        <p className=" lg:w-1/4">
           Working with Carrie has been truly transformative. From our very first
           session, her guidance and unwavering support has helped me gain
           clarity and confidence in my personal and professional life. Her
@@ -204,6 +204,16 @@ export default function Home() {
           feelings and experiences, making me feel truly heard and understood.
           I&apos;m constantly experiencing positive changes in my life daily,
           with the way I act, feel, and view life; Thanks to Carrie! - M, 21
+        </p>
+        <p className=" lg:w-1/4">
+          Carrie holds space like a mirror, calm and deeply present. In our
+          session, I felt completely safe to open up and drop into my body in a
+          way I hadn&apos;t before. What unfolded was pure magic, my fire and my
+          light finally stopped fighting and started dancing. The visual journey
+          she walked me through was freeing, and I left feeling more connected,
+          more embodied, and fully lit from within. Carrie helped me reclaim my
+          power, not by fixing, but by witnessing. She&apos;s a gift to the
+          nervous system, to the body and to the soul. - KM
         </p>
       </div>
       <p className="pt-36 pb-56 px-6 md:px-36 text-center tracking-widest text-3xl">
