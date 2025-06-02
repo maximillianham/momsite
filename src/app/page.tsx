@@ -10,6 +10,7 @@ import Sunnyday from "./components/IMG_5889.jpeg";
 import sfembodiment from "./components/sf_highres.png";
 import { karma, Rhd } from "@/app/fonts";
 import AutoPlayVideo from "./components/AutoPlayVideo";
+import Terms from "./terms/page";
 
 export default function Home() {
   return (
@@ -111,7 +112,7 @@ export default function Home() {
         <AutoPlayVideo />
       </div>
 
-      <div className="relative pt-24 text-center px-6 md:px-0">
+      <div className="relative pt-18 text-center px-6 md:px-0">
         {/* Background Image */}
         <Image
           className="absolute top-0 left-1/2 transform -translate-x-1/2 z-0"
@@ -237,17 +238,14 @@ export default function Home() {
         />
       </div>
       <footer className="bg-neutral-900 py-20">
-        <div className="mx-auto  text-center text-xl text-neutral-600">
-          HOW TO CONTACT ME
-        </div>
         <div className="mx-auto pt-6 text-center text-lg text-neutral-600">
           <a
             href="https://www.soulflowembodiment.com/calendar/soulflow/carrie-kurtz-4-19-25"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white underline hover:text-pink-400"
+            className="text-white hover:underline hover:text-pink-400"
           >
-            Book Your First Class!
+            Book Your First Class Today!
           </a>
         </div>
 
@@ -279,6 +277,12 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      <div className="flex flex-col text-center">
+        <a href="/terms" className="hover:underline">
+          {" "}
+          Terms & Conditions
+        </a>
+      </div>
     </main>
   );
 }
