@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Roots from "./components/straighttotheroot.svg";
+import Roots from "./components/MomsiteLogoCav.png";
 import Certificate from "./components/governingboard.png";
 import blossommain from "./components/blossommain.jpg";
 import blossomBG from "./components/adobestock_90133252.jpeg";
@@ -30,21 +30,15 @@ export default function Home() {
           className="relative mx-auto z-10 justify-center items-center py-4"
           src={Roots}
           alt="logomark"
-          height={65}
-          width={65}
+          height={200}
+          width={200}
         />
-        {/* Mobile (IOS) Logo Typeface */}
-        <div
-          className={`relative hidden md:block text-black text-center text-2xl font-bold ${Rhd}`}
-        >
-          Straight To The Root
-        </div>
 
         <div className="relative z-10 items-center justify-center text-black text-center px-4 sm:px-6 md:px-24 lg:px-40 xl:px-60 py-24 w-full">
           {/* Textblock */}
           <h1 className="text-2xl font-normal pt-14">
             <p
-              className={`z-10 justify-center text-4xl tracking-widest font-bold ${Rhd}`}
+              className={`z-10 justify-center text-4xl tracking-widest pb-4 font-bold ${Rhd}`}
             >
               There Is Wisdom In Your Roots...
             </p>

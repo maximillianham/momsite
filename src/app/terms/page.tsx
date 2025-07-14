@@ -3,7 +3,7 @@ import { CG } from "@/app/fonts";
 export default function Terms() {
   return (
     <main
-      className={`bg-black text-white text-lg p-16 space-y-4 ${CG.className}`}
+      className={`bg-black text-white text-lg md:p-16 p-4 space-y-4 ${CG.className}`}
     >
       <h1 className={`text-center text-2xl font-semibold`}>
         Terms & Conditions
@@ -52,7 +52,7 @@ export default function Terms() {
       </p>
       <h2 className="font-semibold">Client Responsibilities</h2>
       <p className="text-center">You agree to:</p>
-      <ul className="text-justify space-y-2 md:ml-32 md:w-1/2 ">
+      <ul className="text-justify space-y-2 md:ml-44 ">
         <li className="">
           &#8226; Show up on time and prepared for your sessions.
         </li>
@@ -60,7 +60,7 @@ export default function Terms() {
           {" "}
           &#8226; Be open, honest, and committed to your growth.
         </li>
-        <li className="">
+        <li className="pb-6">
           &#8226; Understand that coaching is a collaborative process and
           results depend on your active participation.
         </li>
@@ -100,9 +100,9 @@ export default function Terms() {
         These Terms are governed by the laws of the State of California/USA
         without regard to its conflict of laws principles.
       </p>
-      <h2 className="font-semibold">Contact Me:</h2>
-      <p className="text-center">
-        If you have any questions about these Terms, please email us at:
+      <h2 className="text-center font-semibold pt-10">Contact Me:</h2>
+      <p className="text-center pb-6">
+        If you have any questions about these Terms, please email me at:
         ckurtz85@gmail.com
       </p>
     </main>
