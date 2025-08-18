@@ -27,14 +27,14 @@ export default function Home() {
 
         {/*LogoMark*/}
         <Image
-          className="relative mx-auto z-10 justify-center items-center py-4"
+          className="relative md:left-1/4 z-10 pt-8"
           src={Roots}
           alt="logomark"
-          height={200}
-          width={200}
+          height={150}
+          width={150}
         />
 
-        <div className="relative z-10 items-center justify-center text-black text-center px-4 sm:px-6 md:px-24 lg:px-40 xl:px-60 py-24 w-full">
+        <div className="relative z-10 items-center justify-center text-black text-center px-4 sm:px-6 md:px-24 lg:px-40 xl:px-60 pb-24 w-full">
           {/* Textblock */}
           <h1 className="text-2xl font-normal pt-14">
             <p
@@ -170,15 +170,15 @@ export default function Home() {
 
       <p className="text-center pt-50 text-3xl">Testimonials</p>
 
-      <div className="flex flex-col lg:flex-row text-justify lg:text-center lg:gap-x-16 pt-16 pb-16 shadow-md px-12 lg:px-16 gap-y-8">
-        <p className=" lg:w-1/4">
+      <div className="flex flex-col lg:flex-row text-justify lg:text-center lg:gap-x-12 pt-16 pb-16 shadow-md px-12 lg:px-16 gap-y-8">
+        <p className=" lg:w-1/5">
           Carrie goes above and beyond, I believe she will excel in any role
           that a client is facing. Carrie has displayed a strong work ethic,
           high standards and a genuine care for the well being of clients. She
           posseses above average emotional intelligence and excellent
           communication skills. - Dr. Morgan Anderson Psy.D
         </p>
-        <p className=" lg:w-1/4">
+        <p className=" lg:w-1/5">
           Whatever you are trying to move through, you definitely want Carrie in
           your corner. She will make you feel seen, heard and loved; while not
           backing down on what you need to hear in order to move the needle.
@@ -189,7 +189,7 @@ export default function Home() {
           get to work with her. It has been breakthrough after breakthrough and
           my life is shifting in unbelievable ways because of her. - S, 55
         </p>
-        <p className=" lg:w-1/4">
+        <p className=" lg:w-1/5">
           Working with Carrie has been truly transformative. From our very first
           session, her guidance and unwavering support has helped me gain
           clarity and confidence in my personal and professional life. Her
@@ -200,7 +200,7 @@ export default function Home() {
           I&apos;m constantly experiencing positive changes in my life daily,
           with the way I act, feel, and view life; Thanks to Carrie! - M, 21
         </p>
-        <p className=" lg:w-1/4">
+        <p className=" lg:w-1/5">
           Carrie holds space like a mirror, calm and deeply present. In our
           session, I felt completely safe to open up and drop into my body in a
           way I hadn&apos;t before. What unfolded was pure magic, my fire and my
@@ -208,7 +208,26 @@ export default function Home() {
           she walked me through was freeing, and I left feeling more connected,
           more embodied, and fully lit from within. Carrie helped me reclaim my
           power, not by fixing, but by witnessing. She&apos;s a gift to the
-          nervous system, to the body and to the soul. - KM
+          nervous system, to the body and to the soul. - KM, Life Coach
+        </p>
+        <p className="lg:w-1/5">
+          Having Carrie as a supportive presence in my life has been invaluable
+          and I&apos;m beyond grateful our paths crossed. Carrie has a genuine
+          heart that you feel as she holds you gently through both a somatic and
+          emotional connection within. She has helped me be more gentle with
+          myself as I move through old wounds, sensations, and narratives where
+          I&apos;ve felt stuck. As a therapist/coach myself, I&apos;m rather
+          picky about who I can trust to have the skills and innate intuition to
+          guide me along my healing journey. She celebrates all the wins, big &
+          small and reflects back hard truths in the most loving, compassionate
+          way. Her knowledge and guidance through somatic practices has been a
+          game changer. Those of us that identify as empaths & space holders
+          need support too and I can&apos;t recommend Carrie enough to hold you
+          through a beautiful transformation of coming home to yourself. Working
+          with Carrie has felt like the most tender, energizing, and powerful
+          permission slip, giving me the confidence and graceful inner knowing
+          to feel safe, leading with my heart and trusting my body&apos;s
+          wisdom. - K 48, Therapist
         </p>
       </div>
       <p className="pt-36 pb-56 px-6 md:px-36 text-center tracking-widest text-3xl">
