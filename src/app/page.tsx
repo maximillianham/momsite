@@ -169,7 +169,9 @@ export default function Home() {
         We Heal In Safe Community
       </p>
 
-      <p className="text-center pt-50 text-3xl">Some Words About Carrie</p>
+      <p className="text-center pt-50 tracking-wide text-3xl">
+        Some Words About Carrie...
+      </p>
       <TextSlider />
       <div>
         <div className="flex flex-col lg:flex-row text-justify lg:text-center lg:gap-x-8 pt-16 pb-16 shadow-md px-12 lg:gap-y-8"></div>
