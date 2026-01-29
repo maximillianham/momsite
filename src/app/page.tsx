@@ -107,28 +107,63 @@ export default function Home() {
         <AutoPlayVideo />
       </div>
 
-      <div className="relative pt-18 text-center px-6 md:px-0">
+      <div className="relative pt-18 px-6 md:px-0">
         {/* Background Image */}
         <Image
-          className="absolute top-0 left-1/2 transform -translate-x-1/2 z-0"
+          className="absolute z-0 hidden"
           src={petalsbg2}
           alt="bg2"
           height={1250}
           width={1250}
         />
         {/* Foreground Text */}
-        <h3 className="relative text-4xl shadow-md z-10">
+        <h3 className="relative text-4xl text-center shadow-md z-10">
           What We&apos;ll Do...
         </h3>
-        <div className="text-2xl relative z-10 flex flex-col gap-y-5 md:gap-y-8 pt-16">
-          <p>Inner Child Work</p>
-          <p>Our parts through Internal Family Systems (IFS)</p>
-          <p>Rewiring the Nervous System</p>
-          <p>Attachment Theory</p>
-          <p>Emotional Freedom Technique (EFT)</p>
-          <p>The body&apos;s story through Somatic Experiencing.</p>
-          <p>The Enneagram</p>
-          <p>SoulFlow&trade;</p>
+        <div className="relative text-3xl flex flex-col text-center lg:px-56 lg:gap-y-12 gap-y-2 lg:pt-32 z-10">
+          <h4>Inner Child Work</h4>
+          <p className="text-2xl">
+            Meet the younger parts of you with safety and compassion so they no
+            longer have to protect you in old ways.
+          </p>
+          <h4>Our parts through Internal Family Systems (IFS)</h4>
+          <p className="text-2xl">
+            Explore your inner world without judgment. Every part has a purpose,
+            and you learn how to lead from a regulated, grounded Self.
+          </p>
+          <h4>Rewiring the Nervous System</h4>
+          <p className="text-2xl">
+            Work with the body to build capacity for safety, rest, and
+            connection so change feels steady and sustainable.
+          </p>
+          <h4>Attachment Theory</h4>
+          <p className="text-2xl">
+            Understand how early attachment patterns shape your relationships
+            today, with partners, family, and yourself, and gently shift toward
+            greater security and trust.
+          </p>
+          <h4>Emotional Freedom Technique (EFT)</h4>
+          <p className="text-2xl">
+            Listen to the body&apos;s story through sensation tracking and
+            movement, allowing stored stress and survival responses to release
+            safely.
+          </p>
+          <h4>The body&apos;s story through Somatic Experiencing.</h4>
+          <p className="text-2xl">
+            Listen to the body&apos;s story through sensation tracking and
+            movement, allowing stored stress and survival responses to release
+            safely.
+          </p>
+          <h4>The Enneagram</h4>
+          <p className="text-2xl">
+            A tool for self awareness and compassion that helps uncover
+            unconscious patterns and create more choice.
+          </p>
+          <h4>SoulFlow&trade;</h4>
+          <p className="text-2xl">
+            An intuitive somatic movement and dance practice that supports
+            emotional release, nervous system regulation.
+          </p>
         </div>
       </div>
 
