@@ -120,7 +120,7 @@ export default function Home() {
         <h3 className="relative text-4xl text-center shadow-md z-10">
           What We&apos;ll Do...
         </h3>
-        <div className="relative text-3xl flex flex-col text-center lg:px-56 lg:gap-y-12 gap-y-2 lg:pt-32 z-10">
+        <div className="relative text-3xl flex flex-col text-center lg:px-56 lg:gap-y-12 gap-y-4 pt-24 lg:pt-32 z-10">
           <h4>Inner Child Work</h4>
           <p className="text-2xl">
             Meet the younger parts of you with safety and compassion so they no
@@ -168,14 +168,14 @@ export default function Home() {
       </div>
 
       <Image
-        className="w-full pt-32 "
+        className="w-full lg:pt-32 pt-16"
         src={sfembodiment}
         alt="sfe"
         height={303}
         width={1500}
       />
 
-      <h4 className="flex flex-wrap md:flex-col text-center text-3xl pt-32 px-8 md:px-64">
+      <h4 className="flex flex-wrap md:flex-col text-center text-3xl lg:pt-32 pt-16 px-8 md:px-64">
         <p>
           ITS BEEN FAR TOO LONG DARLING, TO NOT MOVE FROM INSIDE OF YOUR SOUL.
         </p>
