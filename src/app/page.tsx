@@ -7,6 +7,7 @@ import mom from "./components/carrie_favorite_website.jpg";
 import petalsbg from "./components/adobestock_532705031.png";
 import petalsbg2 from "./components/adobestock_789829685.png";
 import Sunnyday from "./components/IMG_5889.jpeg";
+import fallingPetals from "./components/falling-petals.png";
 import sfembodiment from "./components/sf_highres.png";
 import { karma, Rhd } from "@/app/fonts";
 import AutoPlayVideo from "./components/AutoPlayVideo";
@@ -110,14 +111,14 @@ export default function Home() {
       <div className="relative pt-18 px-6 md:px-0">
         {/* Background Image */}
         <Image
-          className="absolute z-0 hidden"
-          src={petalsbg2}
+          className="absolute z-0 opacity-80 invisible md:visible"
+          src={fallingPetals}
           alt="bg2"
           height={1250}
           width={1250}
         />
         {/* Foreground Text */}
-        <h3 className="relative text-4xl text-center shadow-md z-10">
+        <h3 className="relative text-4xl text-center z-10">
           What We&apos;ll Do...
         </h3>
         <div className="relative text-3xl flex flex-col text-center lg:px-56 lg:gap-y-12 gap-y-4 pt-24 lg:pt-32 z-10">
