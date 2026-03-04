@@ -51,8 +51,27 @@ export const testimonials: string[] = [
     permission slip, giving me the confidence and graceful inner knowing
     to feel safe, leading with my heart and trusting my body's
     wisdom. - K 48, Therapist`,
-  `I am deeply grateful to have had the opportunity to have Carrie as a part of my journey who has been an invaluable support to me. As a therapist, I deeply value personal growth and the importance of having the opportunity for my own space for reflection and accountability. 
-Carries warmth, honesty and knowledge allowed me a space where I could be myself. It allowed me to validate patterns I had ignored, reconnect with my strengths and find clarity in both my personal and professional life. Growth is a lifelong process and even those of us who guide others often need guidance and support as well.
-I wholeheartedly recommend Carrie to anyone who is seeking guidance in navigating transitions, self awareness or realigning their purpose. 
-- Tammy Lovejoy, M.Ed., LAC, MAC, LPC`,
+
+  `I am deeply grateful to have had the opportunity to have Carrie as a 
+  part of my journey who has been an invaluable support to me. As a therapist,
+  I deeply value personal growth and the importance of having the opportunity
+  for my own space for reflection and accountability. Carries warmth, honesty 
+  and knowledge allowed me a space where I could be myself. It allowed me to 
+  validate patterns I had ignored, reconnect with my strengths and find clarity
+  in both my personal and professional life. Growth is a lifelong process 
+  and even those of us who guide others often need guidance and support as well. 
+  I wholeheartedly recommend Carrie to anyone who is seeking guidance in 
+  navigating transitions, self awareness or realigning their purpose. 
+  - Tammy Lovejoy, M.Ed., LAC, MAC, LPC`,
+
+  `Carrie is a truly gifted practitioner. I came to her seeking clarity around 
+  a relationship, unsure how much of what I was feeling came from my childhood 
+  trauma and how much reflected my present-day truth. With gentleness and 
+  insight, Carrie guided me toward the answers that aligned with my highest 
+  self and genuine needs.I entered the session feeling confused and left with 
+  confidence and clarity. Carrie is compassionate, wise, and exceptionally 
+  skilled. She is an ideal support for anyone committed to growth and inner 
+  work, including those who have experienced sexual assault. As someone who 
+  works in the wellness field, I wholeheartedly recommend her to anyone seeking 
+  somatic support for trauma. - R.S. Grief Coach`,
 ];
