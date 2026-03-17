@@ -143,11 +143,11 @@ export default function Home() {
             today, with partners, family, and yourself, and gently shift toward
             greater security and trust.
           </p>
-          <h4>Emotional Freedom Technique (EFT)</h4>
+          <h4> Somatic EMDR </h4>
           <p className="text-2xl">
-            Listen to the body&apos;s story through sensation tracking and
-            movement, allowing stored stress and survival responses to release
-            safely.
+            Combines traditional Eye Movement Desensitization and Reprocessing
+            (EMDR) with body-centered somatic psychology to treat trauma stored
+            in the nervous system.
           </p>
           <h4>The body&apos;s story through Somatic Experiencing.</h4>
           <p className="text-2xl">
