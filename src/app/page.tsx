@@ -53,11 +53,23 @@ export default function Home() {
               system so you can reconnect with your inner wisdom and recieve the
               life thats been calling you home.
             </p>
-            <p className="pt-24">
+            <p className="pt-24 pb-16">
               Schedule a complimentary somatic session and begin to learn the
               language your body speaks.
             </p>
           </h1>
+          <div className="">
+            <div className="">
+              <a
+                href="tel:+19494339364"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white text-lg bg-neutral-400 hover:bg-pink-400 rounded-full text-center text-neutral-60 hover:text-white hover:underline px-32"
+              >
+                Text me to book a free consultation!
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -145,9 +157,10 @@ export default function Home() {
           </p>
           <h4> Somatic EMDR </h4>
           <p className="text-2xl">
-            Combines traditional Eye Movement Desensitization and Reprocessing
+            CCombines traditional Eye Movement Desensitization and Reprocessing
             (EMDR) with body-centered somatic psychology to treat trauma stored
-            in the nervous system.
+            in the nervous system. So the past can finally feel like it&apos;s
+            in the past, not something you&apos;re still living inside of.
           </p>
           <h4>The body&apos;s story through Somatic Experiencing.</h4>
           <p className="text-2xl">
