@@ -61,7 +61,7 @@ export default function Home() {
           <div className="">
             <div className="">
               <a
-                href="tel:+19494339364"
+                href="sms:+19494339364"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white text-lg bg-neutral-400 hover:bg-pink-400 rounded-full text-center text-neutral-60 hover:text-white lg:px-32 px-8"
