@@ -275,7 +275,7 @@ export default function Home() {
           <div className="md:w-1/3">
             <div>Follow Me</div>
             <a
-              href="https://www.instagram.com/@carrie.kurtz/"
+              href="https://www.instagram.com/carrie.kurtz/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline"
