@@ -280,7 +280,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="hover:underline"
             >
-              @Carrie_kurtz
+              @carrie.kurtz
             </a>
           </div>
         </div>
