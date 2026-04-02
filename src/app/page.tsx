@@ -64,7 +64,7 @@ export default function Home() {
                 href="tel:+19494339364"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white text-lg bg-neutral-400 hover:bg-pink-400 rounded-full text-center text-neutral-60 hover:text-white hover:underline px-32"
+                className="text-white text-lg bg-neutral-400 hover:bg-pink-400 rounded-full text-center text-neutral-60 hover:text-white lg:px-32 px-8"
               >
                 Text me to book a free consultation!
               </a>
@@ -157,7 +157,7 @@ export default function Home() {
           </p>
           <h4> Somatic EMDR </h4>
           <p className="text-2xl">
-            CCombines traditional Eye Movement Desensitization and Reprocessing
+            Combines traditional Eye Movement Desensitization and Reprocessing
             (EMDR) with body-centered somatic psychology to treat trauma stored
             in the nervous system. So the past can finally feel like it&apos;s
             in the past, not something you&apos;re still living inside of.
@@ -260,7 +260,7 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center gap-y-8 lg:gap-y-0 md:flex-row text-center text-lg text-white shadow-inner pt-12 ">
           <div className="md:w-1/3">
             <div>Text Me</div>
-            <a href="tel:+19494339364" className=" hover:underline">
+            <a href="sms:+19494339364" className=" hover:underline">
               (949) 433 - 9364
             </a>
           </div>
@@ -275,7 +275,7 @@ export default function Home() {
           <div className="md:w-1/3">
             <div>Follow Me</div>
             <a
-              href="https://www.instagram.com/@carrie_kurtz/"
+              href="https://www.instagram.com/@carrie.kurtz/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline"
