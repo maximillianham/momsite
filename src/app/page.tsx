@@ -47,13 +47,24 @@ export default function Home() {
             <p className="pt-2">
               What you are seeking is already alive within your body.
             </p>
-            <p className="pt-4">
-              Through gentle, embodied, practices and a trauma-informed,
-              multi-modality approach, we create a sanctuary for your nervous
-              system so you can reconnect with your inner wisdom and recieve the
-              life thats been calling you home.
+            <p className="pt-10">
+              If you&apos;ve found yourself wondering why you feel anxious all
+              the time, why you shut down in relationships, or why you feel
+              disconnected from yourself, you are not alone. Maybe you&apos;ve
+              tried to stop overthinking, to feel safe in your body, or to
+              understand why you self sabotage, yet something deeper still feels
+              unresolved.
             </p>
-            <p className="pt-24 pb-16">
+            <p className="pt-4">
+              Through gentle, embodied practices and a trauma-informed, somatic
+              approach, we create a sanctuary for your nervous system, where you
+              can begin to regulate your system, reconnect with your inner
+              wisdom, and heal trauma without having to relive or over-explain
+              it. From this place, you don&apos;t have to force change. You
+              return to yourself, and receive the life that&apos;s been calling
+              you home.
+            </p>
+            <p className="pt-24 pb-12">
               Schedule a complimentary somatic session and begin to learn the
               language your body speaks.
             </p>
